@@ -4,3 +4,12 @@ build/
 a.out
 .vscode/
 *.root
+
+# Скомпилированные программы в exercises: игнорируем всё, кроме исходников
+exercises/**/*
+!exercises/**/
+!exercises/**/*.cc
+!exercises/**/*.hh
+!exercises/**/*.h
+!exercises/**/*.md
+!exercises/**/CMakeLists.txt
