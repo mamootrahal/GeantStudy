@@ -4,12 +4,19 @@
 
 // Задание 3: прибавить edep к total через ссылку
 void AddEnergy(double& total, double edep) {
-    // ваш код
+    total += edep;
+    return;
 }
 
 // Задание 4: то же через указатель; если total == nullptr — ничего не делать
 void AddEnergyPtr(double* total, double edep) {
-    // ваш код
+    // ваш iкod
+    if (total == nullptr) {
+        return;
+    }
+    else {
+        *total += edep;
+    }
 }
 
 int main() {
