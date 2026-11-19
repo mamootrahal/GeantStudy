@@ -7,7 +7,7 @@ const double keV = 1.e-3 * MeV;
 
 // Задание 3: верните энергию, выраженную в кэВ
 double ToKeV(double energy) {
-    return keV;
+    return MeV;
 }
 
 int main() {
